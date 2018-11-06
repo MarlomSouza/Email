@@ -1,0 +1,17 @@
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.csprojAssemblyReference.cache
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.csproj.CoreCompileInputs.cache
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.AssemblyInfoInputs.cache
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.AssemblyInfo.cs
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Testes.deps.json
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Testes.runtimeconfig.json
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Testes.runtimeconfig.dev.json
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Testes.dll
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Testes.pdb
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Dominio.dll
+D:\Projetos\Email\Testes\bin\Debug\netcoreapp2.0\Dominio.pdb
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.csproj.CopyComplete
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.dll
+D:\Projetos\Email\Testes\obj\Debug\netcoreapp2.0\Testes.pdb
