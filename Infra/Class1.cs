@@ -2,7 +2,7 @@
 
 namespace Infra
 {
-    public class Class1
+    public class EnviadorDeEmail: EnviadorDeEmail
     {
     }
 }

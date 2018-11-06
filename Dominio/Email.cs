@@ -26,6 +26,5 @@ namespace Dominio
             if (string.IsNullOrEmpty(endereco) || !regex.Match(endereco).Success)
                 throw new FormatException("Endereço de email inválido");
         }
-
     }
 }
