@@ -7,3 +7,6 @@ D:\Projetos\Email\Infra\obj\Debug\netstandard2.0\Infra.AssemblyInfoInputs.cache
 D:\Projetos\Email\Infra\obj\Debug\netstandard2.0\Infra.AssemblyInfo.cs
 D:\Projetos\Email\Infra\obj\Debug\netstandard2.0\Infra.dll
 D:\Projetos\Email\Infra\obj\Debug\netstandard2.0\Infra.pdb
+D:\Projetos\Email\Infra\bin\Debug\netstandard2.0\Dominio.dll
+D:\Projetos\Email\Infra\bin\Debug\netstandard2.0\Dominio.pdb
+D:\Projetos\Email\Infra\obj\Debug\netstandard2.0\Infra.csproj.CopyComplete

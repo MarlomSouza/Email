@@ -1,4 +1,5 @@
 using Xunit;
+using Infra;
 
 namespace Testes
 {
@@ -12,9 +13,9 @@ namespace Testes
         public void Deve_enviar_email()
         {
             //Given
-            var email = EmailBuilder.Novo().ComDestinario("marlomsouza@digix.com.br").ComMensagem("Teste").Criar();
+            var email = EmailBuilder.Novo().ComDestinario("marlomsouza@digix.com.br").ComRemetente("teste@teeste.com").ComMensagem("isso é um teste").Criar();
             //When
-            bool foiEnviado = new EnviadorDeEmail(email).Enviar();
+            bool foiEnviado = new EnviadorDeEmail().Enviar(email);
             //Then
             Assert.True(foiEnviado);
         }

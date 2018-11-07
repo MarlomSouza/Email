@@ -7,11 +7,8 @@ namespace Infra
 {
     public class EnviadorDeEmail : IEnviadorDeEmail
     {
-        private Email email;
-
-        public EnviadorDeEmail(Email email)
+        public EnviadorDeEmail()
         {
-            this.email = email;
         }
 
         public bool Enviar(Email email)
