@@ -193,7 +193,7 @@
   },
   "packageFolders": {
     "C:\\Users\\marlomsouza\\.nuget\\packages\\": {},
-    "C:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -205,7 +205,7 @@
       "outputPath": "D:\\Projetos\\Email\\Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\marlomsouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
