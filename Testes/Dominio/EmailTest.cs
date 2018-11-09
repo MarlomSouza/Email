@@ -1,4 +1,5 @@
 using System;
+using Dominio;
 using Xunit;
 
 namespace Testes
@@ -11,6 +12,7 @@ namespace Testes
             const string enderecoEsperado = "marlom@email.com";
 
             var email = EmailBuilder.Novo().ComRemetente(enderecoEsperado).Criar();
+            var novoEmail = new Email(email.Remetente, email.Mensagem, email.Destinario);
 
             Assert.Equal(enderecoEsperado, email.Remetente);
         }
@@ -21,6 +23,7 @@ namespace Testes
             const string mensagemEsperada = "Texto para o email.";
 
             var email = EmailBuilder.Novo().ComMensagem(mensagemEsperada).Criar();
+            var novoEmail = new Email(email.Remetente, email.Mensagem, email.Destinario);
 
             Assert.Equal(mensagemEsperada, email.Mensagem);
         }
