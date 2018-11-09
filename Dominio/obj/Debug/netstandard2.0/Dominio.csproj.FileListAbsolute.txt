@@ -6,3 +6,4 @@ D:\Projetos\Email\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfoInputs.ca
 D:\Projetos\Email\Dominio\obj\Debug\netstandard2.0\Dominio.AssemblyInfo.cs
 D:\Projetos\Email\Dominio\obj\Debug\netstandard2.0\Dominio.dll
 D:\Projetos\Email\Dominio\obj\Debug\netstandard2.0\Dominio.pdb
+D:\Projetos\Email\Dominio\obj\Debug\netstandard2.0\Dominio.csprojAssemblyReference.cache
