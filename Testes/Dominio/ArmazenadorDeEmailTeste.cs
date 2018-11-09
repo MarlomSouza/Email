@@ -8,18 +8,18 @@ namespace Testes.Dominio
     public class ArmazenadorDeEmailTeste
     {
         private readonly Mock<IEmailRepository> _emailRepository;
-        private ArmazenadorDeEmail _armazenadorDeEmail;
+        private readonly ArmazenadorDeEmail _armazenadorDeEmail;
 
         public ArmazenadorDeEmailTeste()
         {
             _emailRepository = new Mock<IEmailRepository>();
-
+            _armazenadorDeEmail = new ArmazenadorDeEmail(_emailRepository.Object);
         }
 
         [Fact]
         public void Deve_armazenar_um_email()
         {
-            _armazenadorDeEmail = new ArmazenadorDeEmail(_emailRepository.Object);
+            
             var email = EmailBuilder.Novo().Criar();
 
             _armazenadorDeEmail.Salvar(email);
@@ -31,7 +31,9 @@ namespace Testes.Dominio
         public void Nao_deve_armazenar_um_email_com_as_mesmas_informacoes()
         {
             var email = EmailBuilder.Novo().Criar();
-            const string mensagemEsperada = "Email já enviado";
+            const string mensagemEsperada = "Email já enviado!";
+            _emailRepository.Setup(repo => repo.ObterPor(email.Destinario, email.Remetente, email.Mensagem))
+                .Returns(email);
             
 
             void Action() => _armazenadorDeEmail.Salvar(email); ;
